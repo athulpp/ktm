@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.main {
+    height: 100vh;
+    width: 100%;
+    background-size:100%;
+}
+.img img {
+    width: 100px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+.left ul {
+    display: flex;
+}
+.left ul li {
+    margin-right: 40px;
+    list-style: none;
+    font-family:sans-serif;
+    font-weight: bold;
+}
+.img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 20px;
+}
+.right i{
+    margin-right: 20px;
+    color: orange;
+}
+.center {
+    text-align: center;
+    margin-top: 300px;
+}
+.center .btn {
+    margin: 0 auto;
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+.center h3{
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: white;
+    font-size:25px;
+}
+.center h1{
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: white;
+    font-size: 65px;
+}
+.center .btn button {
+    width: 200px;
+    height: 50px;
+    color: white;
+    border: none;
+}
+.center .button{
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.img-section .bike-img {
+    width: 250px;
+    height: 300px;
+}
+.img-section .bike-img .img1 {
+    height: 250px;
+}
+.img-section .bike-img .img1 img {
+    width: 100%;
+}
+.img-section {
+    display: flex;
+    justify-content: space-between;
+}
+.img-container {
+    padding: 60px 50px;
+}
+
+
+.insta.insta-left .img{
+    height:250px;
+  
+
+}
+.img1{
+    width: 333px;
+    height: 248px;
+}
+.img1title{
+text-transform: uppercase;
+margin-top: 20px;
+}
+.img1des {
+    margin-top:20px;
+    font-size: smaller;
+}
+.date{
+    margin-top: 100px;
+}
+.insta-left{
+    display: flex;
+}
+.insta{
+    padding: 60px 50px;
+    display: flex;
+    
+
+}
+.follow h2{
+    text-align: center;
+    margin: auto;
+    margin-top: 130px;
+    padding-right: 92px;px;
+}
+.insta-pro{
+    background-color: black;
+    width:50%;
+    height: 500px;
+
+}.follow{
+    background-color: black;
+}
+
+.text{
+    color:white;
+    text-align: center;
+}
+.text-center{
+    color: burlywood;
+    text-align: center;
+    padding-right: 70px;
+}
+.instabu{
+    height: 69px;
+    width: 258px;
+    position: relative;
+    margin-left: 180px;
+    margin-top: 69px;
+    background: transparent;
+    border:1px solid white;
+    color: white;
+    
+}
+.instabu:hover {
+    color: orangered;
+    border: 1px solid orangered;
+}
+.insta-left{
+    margin-top:400px;
+}
+.insta-pro{
+    margin-top:400px;
+}
+
+.signup h2{
+    font-size: medium;
+
+
+}
+.news-letter{
+    display: flex;
+    align-items: center;
+    padding: 0 28% 40px;
+justify-content: space-between;
+
+}
+.news-letter button {
+    width: 150px;
+    height: 50px;
+    border: 1px solid orangered;
+    background: transparent;
+    color: orangered;
+}
+.news-letter button:hover{
+    width: 180px;
+    background-color: orangered;
+    color: white;
+}
+.titlenew h1{
+    align-items: center;
+}
+.para{
+    margin-left: 208px;
+    margin-right: 204px;
+    text-decoration: auto;
+    text-align: justify;
+}.foot1{
+    background-color: black;
+    padding: 30px;
+}
+.mainfoot{
+    display: flex;
+    
+}ul{
+    color: white;
+}
+.foot2{
+    background-color: black;
+    padding: 30px;
+}
+.foot3{
+    background-color: black;
+    padding:30px;
+    padding-left:514px;
+    margin-top: -266px;
+}
+.foot4{
+    background-color: black;
+    padding: 30px;
+    padding-left: 703px;
+    margin-top: -266px;
+}
+
+.foot5{
+    background-color: black;
+    padding: 30px;
+}
+.para{
+    color:  #bdbdbd;
+    padding: 38px;
+    max-width: 790px;
+    text-align: center;
+    font-weight: 300;
+    font-size: .75em;
+    margin: 60px auto;
+    line-height: 20px;
+}
+
+.mainfoot ul {
+    list-style: none;
+}
+footer .foot1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+footer .foot1 ul {
+    list-style: none;
+}
+footer .foot1 li:first-child{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+footer .foot1 li{
+    line-height: 30px;
+}
+.foot2{
+    background-color: black;
+    color: white;
+    text-align: left;
+padding-top: 10px;
+
+}
